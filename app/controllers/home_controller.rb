@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   def index
-    puts "INHOMECONTROLLER"
   end
   def about
   end
