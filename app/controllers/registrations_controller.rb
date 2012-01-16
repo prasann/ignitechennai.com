@@ -2,7 +2,7 @@ class RegistrationsController < ApplicationController
   # GET /registrations
   # GET /registrations.xml
   def index
-    @registrations = Registration.find(:all)
+    @registrations = Registration.all
 
     respond_to do |format|
       format.html # index.html.erb
