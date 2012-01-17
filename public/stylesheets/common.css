@@ -126,19 +126,42 @@ ul {
 	margin-left: -501px;
 }
 #orange_box h1 {
-	font-size: 3.8em;
+	font-size: 4.7em;
 	text-align: center;
 	margin-top: 10px;
 	letter-spacing: -4px;
 	line-height: 63px;
 }
 #orange_box h2 {
-	font-size: 2.0em;
+	font-size: 3.0em;
 	text-align: center;
 	letter-spacing: -2px;
 	line-height: 26px;
 	margin-bottom: 15px;
 }
+#orange_box .register {
+	background: transparent url(../images/register.png) no-repeat scroll 0 0;
+	height: 77px;
+	width: 187px;
+	margin: 10px auto;
+	cursor: pointer;
+	display:block;
+	text-indent:-999px;
+}
+#orange_box .info {
+	margin: 10px;
+	font-size: 1.25em;
+}
+#orange_box .info ul li.question {
+	font-weight: bold;
+	color: #330000;
+}
+#orange_box .info ul li.answer {
+	font-weight: normal;
+	color: #660000;
+	margin-bottom: 6px;
+}
+
 #orange_box .watch {
 	background: url("../images/watch-videos.png") no-repeat scroll -3px 0 transparent;
 	height: 137px;
@@ -147,10 +170,6 @@ ul {
 	cursor: pointer;
 	display:block;
 	text-indent:-999px;
-}
-#orange_box .info {
-	margin: 10px;
-	font-size: 1.25em;
 }
 #orange_box .info ul li.big {
 	color:#660000;
